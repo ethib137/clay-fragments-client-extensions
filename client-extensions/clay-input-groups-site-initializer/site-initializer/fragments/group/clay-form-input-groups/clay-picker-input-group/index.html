@@ -1,0 +1,27 @@
+<div class="form-group mb-0 [#if input.errorMessage?has_content]has-error[/#if]">
+	<label class="[#if !input.showLabel || !input.label?has_content]sr-only[/#if]" for="${fragmentEntryLinkNamespace}Picker">
+		${input.label} [#if input.required][@clay["icon"] className="reference-mark" symbol="asterisk" /][/#if]
+	</label>
+
+	<button
+		aria-describedby="${fragmentEntryLinkNamespace}Feedback"
+		class="form-control form-control-select form-control-select-secondary"
+		id="${fragmentEntryLinkNamespace}Picker"
+	>${configuration.placeholder}</button>
+
+	<div class="form-feedback-group" id="${fragmentEntryLinkNamespace}Feedback">
+		[#if input.errorMessage?has_content]
+			<div class="form-feedback-item">
+				<span class="form-feedback-indicator">
+					[@clay["icon"] symbol="exclamation-full" /]
+				</span>
+
+				${input.errorMessage}
+			</div>
+		[/#if]
+
+		[#if input.showHelpText]
+			<div class="form-text">${input.helpText}</div>
+		[/#if]
+	</div>
+</div>

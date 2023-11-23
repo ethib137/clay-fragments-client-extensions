@@ -1,0 +1,14 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"name": "placeholder",
+					"label": "placeholder",
+					"type": "text",
+					"dataType": "string"
+				}
+			]
+		}
+	]
+}
