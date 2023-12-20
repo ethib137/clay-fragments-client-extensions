@@ -1,8 +1,8 @@
 {
-    "private": true,
-    "workspaces": {
-        "packages": [
-            "client-extensions/clay-input-groups"
-        ]
-    }
+	"private": true,
+	"workspaces": {
+		"packages": [
+			"client-extensions/clay-input-groups"
+		]
+	}
 }

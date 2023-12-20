@@ -3,12 +3,7 @@
 		${input.label} [#if input.required][@clay["icon"] className="reference-mark" symbol="asterisk" /][/#if]
 	</label>
 
-	<button
-		aria-describedby="${fragmentEntryLinkNamespace}Feedback"
-		class="form-control form-control-select form-control-select-secondary"
-		id="${fragmentEntryLinkNamespace}Picker"
-	>${configuration.placeholder}</button>
-
+<button aria-describedby="${fragmentEntryLinkNamespace}Feedback" class="form-control form-control-select form-control-select-secondary" id="${fragmentEntryLinkNamespace}Picker">${configuration.placeholder}</button>
 	<div class="form-feedback-group" id="${fragmentEntryLinkNamespace}Feedback">
 		[#if input.errorMessage?has_content]
 			<div class="form-feedback-item">

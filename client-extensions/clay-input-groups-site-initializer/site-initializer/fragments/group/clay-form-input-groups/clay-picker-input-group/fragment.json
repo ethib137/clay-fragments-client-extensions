@@ -1,13 +1,15 @@
 {
-  "configurationPath": "configuration.json",
-  "jsPath": "index.js",
-  "htmlPath": "index.html",
-  "cssPath": "index.css",
-  "icon": "select-from-list",
-  "name": "Clay Picker Input Group",
-  "typeOptions": {"fieldTypes": [
-    "relationship",
-    "select"
-  ]},
-  "type": "input"
+	"configurationPath": "configuration.json",
+	"cssPath": "index.css",
+	"htmlPath": "index.html",
+	"icon": "select-from-list",
+	"jsPath": "index.js",
+	"name": "Clay Picker Input Group",
+	"type": "input",
+	"typeOptions": {
+		"fieldTypes": [
+			"relationship",
+			"select"
+		]
+	}
 }

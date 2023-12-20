@@ -3,10 +3,10 @@
 		{
 			"fields": [
 				{
-					"name": "placeholder",
+					"dataType": "string",
 					"label": "placeholder",
-					"type": "text",
-					"dataType": "string"
+					"name": "placeholder",
+					"type": "text"
 				}
 			]
 		}
