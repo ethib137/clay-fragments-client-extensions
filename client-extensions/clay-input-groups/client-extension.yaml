@@ -1,0 +1,9 @@
+assemble:
+    - from: vite-build
+      into: static
+clay-picker-input-group-js-import-maps-entry:
+    bareSpecifier: clay-picker-input-group
+    name: Clay Picker Input Group JS Import Maps Entry
+    type: jsImportMapsEntry
+    url: main.js
+    useESM: true
