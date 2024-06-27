@@ -40,7 +40,7 @@
 				</label>
 
 				<Picker
-					aria-aria-describedby={`${namespace}Feedback`}
+					aria-describedby={`${namespace}Feedback`}
 					disabled={readOnly}
 					id={`${namespace}Picker`}
 					items={options}

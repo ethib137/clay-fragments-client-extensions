@@ -21,7 +21,7 @@ function N(m) {
   return /* @__PURE__ */ e.createElement(a.Group, { className: `mb-0 ${c ? "has-error" : ""}` }, /* @__PURE__ */ e.createElement("label", { className: !h || n.length === 0 ? "sr-only" : "", htmlFor: `${t}Input` }, n, b && /* @__PURE__ */ e.createElement($, { className: "reference-mark", symbol: "asterisk", spritemap: o })), /* @__PURE__ */ e.createElement(
     x,
     {
-      "aria-aria-describedby": `${t}Feedback`,
+      "aria-describedby": `${t}Feedback`,
       disabled: d,
       id: `${t}Picker`,
       items: p,
