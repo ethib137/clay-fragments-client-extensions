@@ -1,0 +1,15 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "Click me",
+					"label": "label",
+					"name": "label",
+					"type": "text"
+				}
+			]
+		}
+	]
+}
